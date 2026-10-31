@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+python-multipart
+uv
+streamlit
+loguru
+numpy
+scikit-learn
+xgboost
+joblib
+pydantic
+mlflow
+lightgbm
+catboost

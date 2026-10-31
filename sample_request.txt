@@ -1,0 +1,88 @@
+{
+  "request_id": "REQ-CLAIM-003",
+  "claim": {
+    "claim_id": "CLM-100003",
+    "patient_id": "PAT-1003",
+    "provider_id": "PROV-103",
+    "claim_type": "Medical",
+    "claim_amount": 12500.0,
+    "service_date": "2026-10-20",
+    "submission_date": "2026-10-25",
+    "patient_age": 55,
+    "patient_gender": "F",
+    "procedure_code": "PROC-IMAGING",
+    "diagnosis_code": "DX-OTHER",
+    "provider_type": "Hospital",
+    "procedure_count": 2,
+    "diagnosis_count": 3,
+    "prior_claim_count": 4,
+    "prior_fraud_flag": 0,
+    "claim_status": "SUBMITTED",
+    "additional_features": {
+      "approved_amount": 10000.0,
+      "claim_age_days": 5,
+      "duplicate_claim_flag": 0
+    }
+  }
+}
+
+
+{
+  "claims": [
+    {
+		"claim_id": "CLM-100003",
+		"patient_id": "PAT-1003",
+		"provider_id": "PROV-103",
+		"claim_type": "Medical",
+		"claim_amount": 12500.0,
+		"service_date": "2026-10-20",
+		"submission_date": "2026-10-25",
+		"patient_age": 55,
+		"patient_gender": "F",
+		"procedure_code": "PROC-IMAGING",
+		"diagnosis_code": "DX-OTHER",
+		"provider_type": "Hospital",
+		"procedure_count": 2,
+		"diagnosis_count": 3,
+		"prior_claim_count": 4,
+		"prior_fraud_flag": 0,
+		"claim_status": "SUBMITTED",
+		"additional_features": {
+		"approved_amount": 10000.0,
+			"claim_age_days": 5,
+			"duplicate_claim_flag": 0
+		}
+    }
+  ],
+  "request_id": "REQ-CLAIM-001"
+}
+
+{
+  "claims": [
+    {
+		"claim_id": "CLM-100003",
+		"patient_id": "PAT-1003",
+		"provider_id": "PROV-103",
+		"claim_type": "Medical",
+		"claim_amount": 12500.0,
+		"service_date": "2026-10-20",
+		"submission_date": "2026-10-25",
+		"patient_age": 55,
+		"patient_gender": "F",
+		"procedure_code": "PROC-IMAGING",
+		"diagnosis_code": "DX-OTHER",
+		"provider_type": "Hospital",
+		"procedure_count": 2,
+		"diagnosis_count": 3,
+		"prior_claim_count": 4,
+		"prior_fraud_flag": 0,
+		"claim_status": "SUBMITTED",
+		"additional_features": {
+		"approved_amount": 10000.0,
+			"claim_age_days": 5,
+			"duplicate_claim_flag": 0
+		}
+    }
+  ],
+  "request_id": "REQ-CLAIM-001"
+}
